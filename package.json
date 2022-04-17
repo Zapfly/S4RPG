@@ -1,0 +1,22 @@
+{
+  "name": "s4rpg",
+  "version": "1.0.0",
+  "description": "used to create games using the S4RPG combat system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zapfly/S4RPG.git"
+  },
+  "keywords": [
+    "s4rpg"
+  ],
+  "author": "Zapfly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zapfly/S4RPG/issues"
+  },
+  "homepage": "https://github.com/Zapfly/S4RPG#readme"
+}

@@ -2,7 +2,8 @@
   "name": "s4rpg",
   "version": "1.0.0",
   "description": "used to create games using the S4RPG combat system",
-  "main": "index.js",
+  "main": "./src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,10 +14,15 @@
   "keywords": [
     "s4rpg"
   ],
-  "author": "Zapfly",
+  "author": "rdngshotgn",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Zapfly/S4RPG/issues"
   },
-  "homepage": "https://github.com/Zapfly/S4RPG#readme"
+  "homepage": "https://github.com/Zapfly/S4RPG#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11"
+  }
 }
